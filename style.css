@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background-color: #FD841F;
+}
+h1 {
+  color: #fffbfd;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #89767f;
+}
+.w {
+  background-image: url("images/tom1.png");
+}
+.a {
+  background-image: url("images/tom2.png");
+}
+.s {
+  background-image: url("images/tom3.png");
+}
+.d {
+  background-image: url("images/tom4.png");
+}
+.j {
+  background-image: url("images/crash.png");
+}
+.k {
+  background-image: url("images/kick.png");
+}
+.l {
+  background-image: url("images/snare.png");
+}
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da0463;
+  text-shadow: 3px 0 #228bae;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+div {
+  margin-top: 6rem;
+}
+#footer {
+  background-color: #001253;
+  height: 5rem;
+  text-align: center;
+  margin-top: 19rem;
+  padding: 1rem 0 0;
+}
+#footer p {
+  color: #fffbfd;
+  font-family: "Trispace", sans-serif;
+}
+.social-icon {
+  margin: 1rem 1rem 0;
+}
+.social-img {
+  color: grey;
+}
+
+@media (max-width: 1216px) and (min-width: 200px) {
+    #footer {
+        background-color: #001253;
+        height: 5rem;
+        text-align: center;
+        margin-top: 16rem;
+        padding: 1rem 0 0;      
+    }
+    #footer p {
+        color: #fffbfd;
+        font-family: "Trispace", sans-serif;
+    }
+    .social-icon {
+        margin: 1rem 1rem 0;
+    }
+    .social-img {
+        color: grey;
+    }
+}
